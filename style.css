@@ -1,0 +1,88 @@
+/* Core Styling Configurations over Standard Tailwind CSS */
+
+/* Smooth Glassmorphism Cards Container */
+.glass-card {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.01) 100%);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.4s ease, box-shadow 0.4s ease;
+}
+
+.glass-card:hover {
+    box-shadow: 0 12px 40px 0 rgba(255, 193, 7, 0.05);
+}
+
+/* Premium Linear Style Glowing Text Elements */
+.glow-text-sm {
+    text-shadow: 0 0 20px rgba(255, 193, 7, 0.3);
+}
+
+/* Floating Mockup Animation */
+.float-element {
+    animation: floatingMockup 6s ease-in-out infinite;
+}
+
+@keyframes floatingMockup {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-12px); }
+    100% { transform: translateY(0px); }
+}
+
+/* Micro-interaction Buttons Styling */
+.premium-btn {
+    background: linear-gradient(90deg, #FFD54A 0%, #FFC107 50%, #FFB300 100%);
+    background-size: 200% auto;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.premium-btn:hover {
+    background-position: right center;
+    box-shadow: 0 0 25px rgba(255, 193, 7, 0.4);
+    transform: translateY(-1px);
+}
+
+/* Slow Gentle Bouncing Variant */
+.animate-bounce-slow {
+    animation: bounceSlow 3s infinite;
+}
+
+@keyframes bounceSlow {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-4px); }
+}
+
+/* Custom Scrollbar configuration for internal lists (e.g. Capes/Discord) */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(255, 193, 7, 0.2);
+    border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 193, 7, 0.4);
+}
+
+/* Modern Timeline Connector Line */
+@media (min-width: 768px) {
+    .step-timeline::before {
+        content: '';
+        position: absolute;
+        top: 24px;
+        left: 40px;
+        right: 40px;
+        height: 1px;
+        background: linear-gradient(90deg, rgba(255,255,255,0.05) 0%, rgba(255,193,7,0.3) 50%, rgba(255,255,255,0.05) 100%);
+        z-index: 0;
+    }
+}
+
+/* Dynamic Navbar Scroll Tracking Highlight Filter effect */
+.dynamic-nav {
+    transition: padding 0.3s ease, background-color 0.3s ease;
+}

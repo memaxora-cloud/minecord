@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecord | Premium Minecraft Products at Better Prices</title>
+    <meta name="description" content="Browse Minecraft accounts, capes, Minecoins, Discord products, and more. Purchase securely through our Discord-powered automated system.">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        display: ['Space Grotesk', 'sans-serif'],
+                    },
+                    colors: {
+                        darkbg: {
+                            100: '#101010',
+                            200: '#0A0A0A',
+                            300: '#050505',
+                        },
+                        accent: {
+                            light: '#FFD54A',
+                            DEFAULT: '#FFC107',
+                            dark: '#FFB300',
+                        },
+                        discord: '#5865F2'
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-darkbg-300 text-gray-300 font-sans antialiased selection:bg-accent selection:text-darkbg-300 overflow-x-hidden">
+
+    <!-- Ambient Glow Backgrounds -->
+    <div class="absolute top-0 left-1/4 w-[500px] h-[500px] bg-accent/10 rounded-full blur-[150px] pointer-events-none -z-10 animate-pulse" style="animation-duration: 8s;"></div>
+    <div class="absolute top-[120vh] right-10 w-[600px] h-[600px] bg-amber-500/5 rounded-full blur-[180px] pointer-events-none -z-10"></div>
+    <div class="absolute top-[350vh] left-10 w-[700px] h-[700px] bg-accent/5 rounded-full blur-[200px] pointer-events-none -z-10"></div>
+
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-50 backdrop-blur-md bg-darkbg-300/70 border-b border-white/5 dynamic-nav">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#" class="flex items-center gap-3 group">
+                <img src="minecord.png" alt="Minecord Logo" class="h-10 w-auto transition-transform group-hover:scale-105">
+                <span class="font-display font-bold text-xl text-white tracking-wide group-hover:text-accent transition-colors">MINECORD</span>
+            </a>
+            
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
+                <a href="#products" class="text-gray-400 hover:text-white transition-colors">Products</a>
+                <a href="#how-it-works" class="text-gray-400 hover:text-white transition-colors">How It Works</a>
+                <a href="#payments" class="text-gray-400 hover:text-white transition-colors">Payments</a>
+                <a href="#why-us" class="text-gray-400 hover:text-white transition-colors">Why Choose Us</a>
+                <a href="#faq" class="text-gray-400 hover:text-white transition-colors">FAQ</a>
+            </nav>
+
+            <div class="flex items-center gap-4">
+                <a href="https://discord.gg/4cHumwMtHv" target="_blank" class="hidden sm:inline-flex text-xs text-gray-400 hover:text-white bg-white/5 hover:bg-white/10 px-4 py-2 rounded-full border border-white/10 transition-all font-mono">dsc.gg/minecordhq</a>
+                <a href="https://discord.gg/4cHumwMtHv" target="_blank" class="premium-btn px-5 py-2.5 rounded-xl text-darkbg-300 font-bold text-sm flex items-center gap-2">
+                    <i class="fa-brands fa-discord text-base"></i> Join Discord
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-[calc(100vh-5rem)] flex items-center py-12 md:py-20 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10 w-full">
+            
+            <!-- Left Side Content -->
+            <div class="lg:col-span-7 flex flex-col justify-center">
+                <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-accent/10 border border-accent/20 text-accent text-xs font-semibold mb-6 max-w-max animate-bounce-slow">
+                    <span class="flex h-2 w-2 relative">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2 w-2 bg-accent"></span>
+                    </span>
+                    99.9% Automated Server Delivery Enabled
+                </div>
+                
+                <h1 class="font-display font-bold text-4xl sm:text-5xl lg:text-6xl text-white tracking-tight leading-[1.1] mb-6">
+                    Premium Minecraft <br>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent via-amber-400 to-yellow-200 glow-text-sm">Products at Better Prices</span>
+                </h1>
+                
+                <p class="text-gray-400 text-lg sm:text-xl max-w-xl mb-8 leading-relaxed">
+                    Browse Minecraft accounts, capes, Minecoins, Discord Products, and more. Purchase securely through our Discord-powered automated system.
+                </p>
+                
+                <div class="flex flex-wrap items-center gap-4 mb-12">
+                    <a href="https://discord.gg/4cHumwMtHv" target="_blank" class="premium-btn px-8 py-4 rounded-xl text-darkbg-300 font-bold flex items-center gap-3 text-base shadow-lg shadow-accent/20 hover:shadow-accent/40 transition-all transform hover:-translate-y-0.5">
+                        <i class="fa-brands fa-discord text-xl"></i> Join Discord
+                    </a>
+                    <a href="#products" class="px-8 py-4 rounded-xl bg-white/5 hover:bg-white/10 text-white font-semibold border border-white/10 hover:border-white/20 transition-all flex items-center gap-2 transform hover:-translate-y-0.5">
+                        View Products <i class="fa-solid fa-arrow-right text-xs text-gray-500"></i>
+                    </a>
+                </div>
+
+                <!-- Trust Row -->
+                <div class="border-t border-white/5 pt-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
+                    <div class="flex items-center gap-2 text-xs text-gray-400 font-medium"><i class="fa-solid fa-circle-check text-accent"></i> Automated Delivery</div>
+                    <div class="flex items-center gap-2 text-xs text-gray-400 font-medium"><i class="fa-solid fa-circle-check text-accent"></i> Trusted Community</div>
+                    <div class="flex items-center gap-2 text-xs text-gray-400 font-medium"><i class="fa-solid fa-circle-check text-accent"></i> Fast Support</div>
+                    <div class="flex items-center gap-2 text-xs text-gray-400 font-medium"><i class="fa-solid fa-circle-check text-accent"></i> Secure Payments</div>
+                    <div class="flex items-center gap-2 text-xs text-gray-400 font-medium col-span-2 sm:col-span-1"><i class="fa-solid fa-circle-check text-accent"></i> Auto & Manual</div>
+                </div>
+            </div>
+
+            <!-- Right Side Dashboard Mockup Visual -->
+            <div class="lg:col-span-5 relative flex justify-center items-center lg:mt-0 mt-12">
+                <div class="absolute w-[120%] h-[120%] bg-gradient-to-tr from-accent/10 to-transparent rounded-full blur-3xl -z-10"></div>
+                <div class="relative w-full max-w-md float-element">
+                    <!-- Premium Glass Visual Box -->
+                    <div class="glass-card rounded-2xl border border-white/10 p-6 shadow-2xl relative overflow-hidden bg-darkbg-100/40 backdrop-blur-xl">
+                        <div class="flex items-center justify-between border-b border-white/5 pb-4 mb-6">
+                            <div class="flex items-center gap-2">
+                                <span class="w-3 h-3 rounded-full bg-red-500/60"></span>
+                                <span class="w-3 h-3 rounded-full bg-yellow-500/60"></span>
+                                <span class="w-3 h-3 rounded-full bg-green-500/60"></span>
+                            </div>
+                            <span class="text-xs font-mono text-gray-500">live_market_activity.json</span>
+                        </div>
+                        
+                        <!-- Mini Product Floating Previews -->
+                        <div class="space-y-4">
+                            <div class="p-3.5 bg-white/[0.02] border border-white/5 rounded-xl flex items-center justify-between transform hover:scale-[1.02] transition-all">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-lg bg-accent/20 flex items-center justify-center border border-accent/30 text-accent">
+                                        <i class="fa-solid fa-user-shield"></i>
+                                    </div>
+                                    <div>
+                                        <p class="text-xs text-white font-semibold">Java Account (Deluxe)</p>
+                                        <p class="text-[10px] text-gray-500">Delivered via Minecord Bot</p>
+                                    </div>
+                                </div>
+                                <span class="text-xs font-bold text-accent bg-accent/10 px-2 py-1 rounded border border-accent/20">$9.99</span>
+                            </div>
+
+                            <div class="p-3.5 bg-white/[0.02] border border-white/5 rounded-xl flex items-center justify-between transform hover:scale-[1.02] transition-all ml-4 border-l-2 border-l-amber-500">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-lg bg-amber-500/20 flex items-center justify-center border border-amber-500/30 text-amber-400">
+                                        <i class="fa-solid fa-shirt"></i>
+                                    </div>
+                                    <div>
+                                        <p class="text-xs text-white font-semibold">Moonlight Trail Cape</p>
+                                        <p class="text-[10px] text-gray-500">Exclusive Code Variant</p>
+                                    </div>
+                                </div>
+                                <span class="text-xs font-bold text-amber-400 bg-amber-500/10 px-2 py-1 rounded border border-amber-500/20">$459.00</span>
+                            </div>
+
+                            <div class="p-3.5 bg-white/[0.02] border border-white/5 rounded-xl flex items-center justify-between transform hover:scale-[1.02] transition-all">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-lg bg-discord/20 flex items-center justify-center border border-discord/30 text-blue-400">
+                                        <i class="fa-solid fa-bolt"></i>
+                                    </div>
+                                    <div>
+                                        <p class="text-xs text-white font-semibold">Server Boosts (3 Months)</p>
+                                        <p class="text-[10px] text-gray-500">Instant Activation Guild</p>
+                                    </div>
+                                </div>
+                                <span class="text-xs font-bold text-blue-400 bg-discord/10 px-2 py-1 rounded border border-discord/20">$0.50</span>
+                            </div>
+                        </div>
+
+                        <!-- Graphic Minecraft Pixel Matrix Overlay Decorator -->
+                        <div class="mt-6 pt-4 border-t border-white/5 flex items-center justify-between text-[11px] text-gray-500 font-mono">
+                            <span><i class="fa-solid fa-network-wired text-green-500 mr-1 animate-pulse"></i> Engine: Online</span>
+                            <span>Ping: 12ms</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof Trust Strip -->
+    <section class="py-12 bg-darkbg-200 border-y border-white/5 relative">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+                <!-- Trust Card 1 -->
+                <div class="glass-card p-5 rounded-xl border border-white/5 bg-white/[0.01] flex flex-col gap-2">
+                    <div class="text-accent text-lg"><i class="fa-solid fa-robot"></i></div>
+                    <h3 class="text-white font-semibold text-sm">Automated Delivery</h3>
+                    <p class="text-xs text-gray-500">Orders delivered through Discord bot automation flawlessly.</p>
+                </div>
+                <!-- Trust Card 2 -->
+                <div class="glass-card p-5 rounded-xl border border-white/5 bg-white/[0.01] flex flex-col gap-2">
+                    <div class="text-accent text-lg"><i class="fa-solid fa-bolt"></i></div>
+                    <h3 class="text-white font-semibold text-sm">Fast Response</h3>
+                    <p class="text-xs text-gray-500">Dedicated manual support team & high availability bots.</p>
+                </div>
+                <!-- Trust Card 3 -->
+                <div class="glass-card p-5 rounded-xl border border-white/5 bg-white/[0.01] flex flex-col gap-2">
+                    <div class="text-accent text-lg"><i class="fa-solid fa-wallet"></i></div>
+                    <h3 class="text-white font-semibold text-sm">Multiple Payments</h3>
+                    <p class="text-xs text-gray-500">Crypto, bKash, Nagad, and localized regional solutions.</p>
+                </div>
+                <!-- Trust Card 4 -->
+                <div class="glass-card p-5 rounded-xl border border-white/5 bg-white/[0.01] flex flex-col gap-2">
+                    <div class="text-accent text-lg"><i class="fa-solid fa-users"></i></div>
+                    <h3 class="text-white font-semibold text-sm">Active Community</h3>
+                    <p class="text-xs text-gray-500">Rapidly scaling core community built by real players.</p>
+                </div>
+                <!-- Trust Card 5 -->
+                <div class="glass-card p-5 rounded-xl border border-white/5 bg-white/[0.01] flex flex-col gap-2 sm:col-span-2 lg:col-span-1">
+                    <div class="text-accent text-lg"><i class="fa-solid fa-tags"></i></div>
+                    <h3 class="text-white font-semibold text-sm">Transparent Pricing</h3>
+                    <p class="text-xs text-gray-500">Clear listed prices right upfront with no processing fees.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Showcase Section -->
+    <section id="products" class="py-24 max-w-7xl mx-auto px-6 relative">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+            <h2 class="font-display font-bold text-3xl sm:text-4xl text-white mb-4">Everything Minecraft Players Need</h2>
+            <p class="text-gray-400">Browse our most popular product structures across high-tier Minecraft accounts, regional codes, and community extensions.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Card 1: MC Java Accounts -->
+            <div class="glass-card bg-darkbg-100/60 border border-white/5 rounded-2xl p-6 relative group hover:border-accent/30 transition-all duration-300 flex flex-col justify-between">
+                <div>
+                    <div class="w-12 h-12 rounded-xl bg-accent/10 text-accent flex items-center justify-center text-xl mb-6 border border-accent/20 group-hover:scale-110 transition-transform">
+                        <i class="fa-brands fa-java"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Minecraft Java Accounts</h3>
+                    <p class="text-xs text-gray-500 mb-4 font-mono">Premium Access Ready</p>
+                    <ul class="space-y-2 mb-6 text-sm text-gray-400">
+                        <li class="flex justify-between"><span>Standard Edition:</span> <span class="text-white font-semibold">$5.99</span></li>
+                        <li class="flex justify-between"><span>Deluxe Edition:</span> <span class="text-white font-semibold">$9.99</span></li>
+                        <li class="flex justify-between"><span>Ultimate Edition:</span> <span class="text-white font-semibold">$24.99</span></li>
+                    </ul>
+                </div>
+                <a href="https://discord.gg/4cHumwMtHv" target="_blank" class="w-full text-center bg-white/5 group-hover:bg-accent group-hover:text-darkbg-300 text-white font-semibold text-sm py-3 rounded-xl transition-all border border-white/10 group-hover:border-accent block">View Products</a>
+            </div>
+
+            <!-- Card 2: MC Bedrock Accounts -->
+            <div class="glass-card bg-darkbg-100/60 border border-white/5 rounded-2xl p-6 relative group hover:border-accent/30 transition-all duration-300 flex flex-col justify-between">
+                <div>
+                    <div class="w-12 h-12 rounded-xl bg-accent/10 text-accent flex items-center justify-center text-xl mb-6 border border-accent/20 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-cube"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Minecraft Bedrock Accounts</h3>
+                    <p class="text-xs text-gray-500 mb-4 font-mono">Cross-Platform Ready</p>
+                    <ul class="space-y-2 mb-6 text-sm text-gray-400">
+                        <li class="flex justify-between"><span>Standard Edition:</span> <span class="text-white font-semibold">$5.99</span></li>
+                        <li class="flex justify-between"><span>Deluxe Edition:</span> <span class="text-white font-semibold">$9.99</span></li>
+                        <li class="flex justify-between"><span>Ultimate Edition:</span> <span class="text-white font-semibold">$24.99</span></li>
+                    </ul>
+                </div>
+                <a href="https://discord.gg/4cHumwMtHv" target="_blank" class="w-full text-center bg-white/5 group-hover:bg-accent group-hover:text-darkbg-300 text-white font-semibold text-sm py-3 rounded-xl transition-all border border-white/10 group-hover:border-accent block">View Products</a>
+            </div>
+
+            <!-- Card 3: Capes -->
+            <div class="glass-card bg-darkbg-100/60 border border-white/5 rounded-2xl p-6 relative group hover:border-accent/30 transition-all duration-300 flex flex-col justify-between">
+                <div>
+                    <div class="w-12 h-12 rounded-xl bg-accent/10 text-accent flex items-center justify-center text-xl mb-6 border border-accent/20 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-shirt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Minecraft Capes</h3>
+                    <p class="text-xs text-gray-500 mb-4 font-mono">Exclusive Cosmetic Codes</p>
+                    <div class="max-h-[110px] overflow-y-auto custom-scrollbar space-y-2 pr-1 mb-6 text-sm text-gray-400">
+                        <div class="flex justify-between text-xs border-b border-white/5 pb-1"><span>Builder Cape Code:</span><span class="text-accent font-semibold">$0.50</span></div>
+                        <div class="flex justify-between text-xs border-b border-white/5 pb-1"><span>Copper Cape Code:</span><span class="text-accent font-semibold">$0.99</span></div>
+                        <div class="flex justify-between text-xs border-b border-white/5 pb-1"><span>Menace Cape Code:</span><span class="text-accent font-semibold">$2.99</span></div>
+                        <div class="flex justify-between text-xs border-b border-white/5 pb-1"><span>Experience / Purple Heart:</span><span class="text-accent font-semibold">$12.99</span></div>
+                        <div class="flex justify-between text-xs border-b border-white/5 pb-1"><span>Moonlight Trail Cape:</span><span class="text-accent font-semibold">$459.00</span></div>
+                    </div>
+                </div>
+                <a href="https://discord.gg/4cHumwMtHv" target="_blank" class="w-full text-center bg-white/5 group-hover:bg-accent group-hover:text-darkbg-300 text-white font-semibold text-sm py-3 rounded-xl transition-all border border-white/10 group-hover:border-accent block">View Products</a>
+            </div>
+
+            <!-- Card 4: Minecoins -->
+            <div class="glass-card bg-darkbg-100/60 border border-white/5 rounded-2xl p-6 relative group hover:border-accent/30 transition-all duration-300 flex flex-col justify-between">
+                <div>
+                    <div class="w-12 h-12 rounded-xl bg-accent/10 text-accent flex items-center justify-center text-xl mb-6 border border-accent/20 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-coins"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Minecoins Packs</h3>
+                    <p class="text-xs text-gray-500 mb-4 font-mono">In-Game Store Top-ups</p>
+                    <ul class="space-y-2 mb-6 text-sm text-gray-400">
+                        <li class="flex justify-between"><span>320 Minecoins:</span> <span class="text-white font-semibold">$0.99</span></li>
+                        <li class="flex justify-between"><span>1,020 Minecoins:</span> <span class="text-white font-semibold">$3.99</span></li>
+                        <li class="flex justify-between"><span>1,720 Minecoins:</span> <span class="text-white font-semibold">$5.99</span></li>
+                        <li class="flex justify-between"><span>3,500 Minecoins:</span> <span class="text-white font-semibold">$9.99</span></li>
+                    </ul>
+                </div>
+                <a href="https://discord.gg/4cHumwMtHv" target="_blank" class="w-full text-center bg-white/5 group-hover:bg-accent group-hover:text-darkbg-300 text-white font-semibold text-sm py-3 rounded-xl transition-all border border-white/10 group-hover:border-accent block">View Products</a>
+            </div>
+
+            <!-- Card 5: Discord Items & Boosts -->
+            <div class="glass-card bg-darkbg-100/60 border border-white/5 rounded-2xl p-6 relative group hover:border-accent/30 transition-all duration-300 flex flex-col justify-between">
+                <div>
+                    <div class="w-12 h-12 rounded-xl bg-discord/10 text-discord flex items-center justify-center text-xl mb-6 border border-discord/20 group-hover:scale-110 transition-transform">
+                        <i class="fa-brands fa-discord"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Discord Items & Growth</h3>
+                    <p class="text-xs text-gray-500 mb-4 font-mono">Nitro, Boosts & Server Growth</p>
+                    <div class="max-h-[110px] overflow-y-auto custom-scrollbar space-y-2 pr-1 mb-6 text-xs text-gray-400">
+                        <div class="flex justify-between border-b border-white/5 pb-1"><span>Nitro Basic / Premium:</span><span class="text-white">$2.99 / $4.99</span></div>
+                        <div class="flex justify-between border-b border-white/5 pb-1"><span>Server Boosts (1M/3M):</span><span class="text-white">$0.2 / $0.5</span></div>
+                        <div class="flex justify-between border-b border-white/5 pb-1"><span>Offline/Online Members:</span><span class="text-white">$0.8 / $0.9 per k</span></div>
+                        <div class="flex justify-between border-b border-white/5 pb-1"><span>Avatar Decos & Gifts:</span><span class="text-accent">Starting $0.90</span></div>
+                    </div>
+                </div>
+                <a href="https://discord.gg/4cHumwMtHv" target="_blank" class="w-full text-center bg-white/5 group-hover:bg-accent group-hover:text-darkbg-300 text-white font-semibold text-sm py-3 rounded-xl transition-all border border-white/10 group-hover:border-accent block">View Products</a>
+            </div>
+
+            <!-- Card 6: Extra Services -->
+            <div class="glass-card bg-darkbg-100/60 border border-white/5 rounded-2xl p-6 relative group hover:border-accent/30 transition-all duration-300 flex flex-col justify-between">
+                <div>
+                    <div class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-500 flex items-center justify-center text-xl mb-6 border border-amber-500/20 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Bot Currencies & Extra</h3>
+                    <p class="text-xs text-gray-500 mb-4 font-mono">OwO, Interactive Bot Extras</p>
+                    <ul class="space-y-2 mb-6 text-sm text-gray-400">
+                        <li class="flex justify-between items-center">
+                            <span>OwO Cowoncy:</span> 
+                            <div class="text-right">
+                                <span class="text-white font-semibold block">$0.10</span>
+                                <span class="text-[10px] text-gray-500">per 1 Million</span>
+                            </div>
+                        </li>
+                        <li class="flex justify-between mt-4 text-xs text-gray-500 italic">
+                            <span>*Custom volume orders negotiated dynamically inside ticketing system.</span>
+                        </li>
+                    </ul>
+                </div>
+                <a href="https://discord.gg/4cHumwMtHv" target="_blank" class="w-full text-center bg-white/5 group-hover:bg-accent group-hover:text-darkbg-300 text-white font-semibold text-sm py-3 rounded-xl transition-all border border-white/10 group-hover:border-accent block">View Products</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="py-24 bg-darkbg-200 border-y border-white/5 relative">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto mb-20">
+                <h2 class="font-display font-bold text-3xl sm:text-4xl text-white mb-4">Buy Minecraft Products in Minutes</h2>
+                <p class="text-gray-400">Our seamless platform utilizes advanced web previews integrated completely into high-speed discord backend nodes.</p>
+            </div>
+
+            <!-- Modern Timeline Container -->
+            <div class="relative grid grid-cols-1 md:grid-cols-4 gap-8 step-timeline">
+                <!-- Step 1 -->
+                <div class="relative flex flex-col items-center md:items-start text-center md:text-left group">
+                    <div class="w-12 h-12 rounded-xl bg-darkbg-300 border border-white/10 text-accent font-display font-bold flex items-center justify-center text-xl mb-4 group-hover:border-accent/50 group-hover:shadow-lg group-hover:shadow-accent/10 transition-all z-10">01</div>
+                    <h3 class="text-white font-bold text-lg mb-2">Browse Products</h3>
+                    <p class="text-sm text-gray-500 max-w-xs">View available specialized items, system parameters and live low market pricing modules.</p>
+                </div>
+                <!-- Step 2 -->
+                <div class="relative flex flex-col items-center md:items-start text-center md:text-left group">
+                    <div class="w-12 h-12 rounded-xl bg-darkbg-300 border border-white/10 text-accent font-display font-bold flex items-center justify-center text-xl mb-4 group-hover:border-accent/50 group-hover:shadow-lg group-hover:shadow-accent/10 transition-all z-10">02</div>
+                    <h3 class="text-white font-bold text-lg mb-2">Join Discord</h3>
+                    <p class="text-sm text-gray-500 max-w-xs">Enter the secure audited Minecord centralized headquarters system via standard invite links.</p>
+                </div>
+                <!-- Step 3 -->
+                <div class="relative flex flex-col items-center md:items-start text-center md:text-left group">
+                    <div class="w-12 h-12 rounded-xl bg-darkbg-300 border border-white/10 text-accent font-display font-bold flex items-center justify-center text-xl mb-4 group-hover:border-accent/50 group-hover:shadow-lg group-hover:shadow-accent/10 transition-all z-10">03</div>
+                    <h3 class="text-white font-bold text-lg mb-2">Open Ticket / Call Bot</h3>
+                    <p class="text-sm text-gray-500 max-w-xs">Instantly initiate an isolated order session via our proprietary high-availability Discord bots.</p>
+                </div>
+                <!-- Step 4 -->
+                <div class="relative flex flex-col items-center md:items-start text-center md:text-left group">
+                    <div class="w-12 h-12 rounded-xl bg-accent text-darkbg-300 font-display font-bold flex items-center justify-center text-xl mb-4 shadow-lg shadow-accent/20 z-10">04</div>
+                    <h3 class="text-white font-bold text-lg mb-2">Pay & Receive</h3>
+                    <p class="text-sm text-gray-500 max-w-xs">Complete global secure payment parameters and instantly fetch active item data protocols.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Payment Methods Section -->
+    <section id="payments" class="py-24 max-w-7xl mx-auto px-6">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+            <h2 class="font-display font-bold text-3xl sm:text-4xl text-white mb-4">Flexible Payment Options</h2>
+            <p class="text-gray-400">Pay using your preferred decentralized crypto asset or trusted local digital localized wallets.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Crypto Network Block -->
+            <div class="glass-card bg-darkbg-100/40 border border-white/5 rounded-2xl p-6 relative overflow-hidden">
+                <div class="flex items-center gap-3 mb-6">
+                    <div class="text-amber-400 text-2xl"><i class="fa-solid fa-cubes-nord"></i></div>
+                    <h3 class="text-white font-bold text-lg">Cryptocurrency Assets</h3>
+                </div>
+                <div class="space-y-4">
+                    <div class="bg-white/[0.02] border border-white/5 rounded-xl p-3">
+                        <div class="flex justify-between text-xs font-mono text-gray-400 mb-2"><span>Litecoin (LTC)</span><i class="fa-solid fa-copy cursor-pointer text-accent hover:text-white" onclick="navigator.clipboard.writeText('LULFfKWEV2bpqgFUUGqQD3uL4g29DJFp4p')"></i></div>
+                        <p class="text-xs text-white break-all font-mono">LULFfKWEV2bpqgFUUGqQD3uL4g29DJFp4p</p>
+                    </div>
+                    <div class="bg-white/[0.02] border border-white/5 rounded-xl p-3">
+                        <div class="flex justify-between text-xs font-mono text-gray-400 mb-2"><span>Bitcoin (BTC)</span><i class="fa-solid fa-copy cursor-pointer text-accent hover:text-white" onclick="navigator.clipboard.writeText('bc1qp2v7lwax22attps47g242ztztcjyms7lazn24g')"></i></div>
+                        <p class="text-xs text-white break-all font-mono">bc1qp2v7lwax22attps47g242ztztcjyms7lazn24g</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Regional MFS (BD/IN) -->
+            <div class="glass-card bg-darkbg-100/40 border border-white/5 rounded-2xl p-6 relative overflow-hidden">
+                <div class="flex items-center gap-3 mb-6">
+                    <div class="text-accent text-2xl"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                    <h3 class="text-white font-bold text-lg">South Asian Wallets</h3>
+                </div>
+                <div class="space-y-4">
+                    <div class="bg-white/[0.02] border border-white/5 rounded-xl p-3 flex justify-between items-center">
+                        <div>
+                            <p class="text-xs font-semibold text-white">bKash (Send Money)</p>
+                            <p class="text-sm font-mono text-gray-400">01344244296</p>
+                        </div>
+                        <span class="text-[10px] bg-pink-500/10 text-pink-400 border border-pink-500/20 px-2 py-0.5 rounded font-bold">BD</span>
+                    </div>
+                    <div class="bg-white/[0.02] border border-white/5 rounded-xl p-3 flex justify-between items-center">
+                        <div>
+                            <p class="text-xs font-semibold text-white">Nagad (Agent Cashout)</p>
+                            <p class="text-sm font-mono text-gray-400">01331698144</p>
+                        </div>
+                        <span class="text-[10px] bg-orange-500/10 text-orange-400 border border-orange-500/20 px-2 py-0.5 rounded font-bold">BD</span>
+                    </div>
+                    <div class="bg-white/[0.02] border border-white/5 rounded-xl p-3 flex justify-between items-center opacity-60">
+                        <div>
+                            <p class="text-xs font-semibold text-white">UPI Portal Integration</p>
+                            <p class="text-[11px] font-mono text-accent">COMING SOON</p>
+                        </div>
+                        <span class="text-[10px] bg-blue-500/10 text-blue-400 border border-blue-500/20 px-2 py-0.5 rounded font-bold">IN</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- International Fiat Block -->
+            <div class="glass-card bg-darkbg-100/40 border border-white/5 rounded-2xl p-6 relative overflow-hidden flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="text-blue-400 text-2xl"><i class="fa-solid fa-globe"></i></div>
+                        <h3 class="text-white font-bold text-lg">International Bank Transfer</h3>
+                    </div>
+                    <p class="text-sm text-gray-500 leading-relaxed mb-6">
+                        We are currently finishing multi-currency compliance pipelines to integrate automated SWIFT/SEPA merchant parameters.
+                    </p>
+                </div>
+                <div class="bg-accent/5 border border-accent/20 rounded-xl p-4 text-center">
+                    <span class="text-xs font-bold text-accent tracking-wider uppercase font-mono"><i class="fa-solid fa-hourglass-start animate-spin mr-1 text-[10px]"></i> Pipeline Active Soon</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Discord Epic Core Section -->
+    <section class="py-20 bg-darkbg-200 border-t border-white/5 overflow-hidden relative">
+        <div class="absolute -right-32 top-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-discord/10 rounded-full blur-[160px] pointer-events-none"></div>
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            
+            <div class="lg:col-span-6">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-discord/10 border border-discord/20 text-blue-400 text-xs font-semibold mb-4">
+                    <i class="fa-brands fa-discord"></i> DISCORD INTEGRATED ENGINE
+                </div>
+                <h2 class="font-display font-bold text-3xl sm:text-4xl lg:text-5xl text-white mb-6 tracking-tight leading-none">
+                    Everything Happens <br>Through Discord
+                </h2>
+                <p class="text-gray-400 text-base sm:text-lg mb-8 leading-relaxed max-w-xl">
+                    All purchases, priority customer support tickets, automated bot state distribution nodes, and continuous instant delivery parameters run entirely inside our optimized user server environments.
+                </p>
+                <a href="https://discord.gg/4cHumwMtHv" target="_blank" class="inline-flex items-center gap-3 bg-discord hover:bg-blue-600 text-white font-bold px-8 py-4 rounded-xl transition-all transform hover:-translate-y-0.5 shadow-xl shadow-discord/20">
+                    Join discord.gg/minecord <i class="fa-solid fa-arrow-right text-xs opacity-70"></i>
+                </a>
+            </div>
+
+            <div class="lg:col-span-6 relative">
+                <!-- Mockup Discord Frame Container -->
+                <div class="w-full glass-card border border-white/10 rounded-2xl bg-darkbg-300/80 shadow-2xl p-4 relative font-mono text-xs">
+                    <div class="flex items-center justify-between mb-4 border-b border-white/5 pb-3">
+                        <div class="flex items-center gap-2 text-gray-400">
+                            <i class="fa-brands fa-discord text-base text-discord"></i>
+                            <span class="font-bold text-white text-[11px]">Minecord Bot #8841</span>
+                        </div>
+                        <div class="flex items-center gap-1.5 bg-green-500/10 text-green-400 border border-green-500/20 px-2 py-0.5 rounded text-[10px]">
+                            <span class="w-1.5 h-1.5 rounded-full bg-green-500 inline-block animate-pulse"></span> Active
+                        </div>
+                    </div>
+                    
+                    <div class="space-y-3 font-sans">
+                        <div class="bg-white/[0.01] border border-white/5 rounded-lg p-3">
+                            <p class="text-accent font-bold text-xs font-display">[System Execution Success]</p>
+                            <p class="text-gray-400 text-[11px] mt-1">Invoice token <span class="text-white font-mono">#MC-4921-X</span> validated. Minecraft Java (Ultimate Edition) details dispatched via isolated payload parameters securely.</p>
+                        </div>
+                        <div class="bg-white/[0.01] border border-white/5 rounded-lg p-3 flex items-center justify-between">
+                            <div class="flex items-center gap-2">
+                                <span class="w-2 h-2 rounded-full bg-green-400"></span>
+                                <span class="text-white text-[11px] font-mono">Session: Secure Auth Node</span>
+                            </div>
+                            <span class="text-[10px] text-gray-500">Active now</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Why Choose Minecord Grid -->
+    <section id="why-us" class="py-24 max-w-7xl mx-auto px-6">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+            <h2 class="font-display font-bold text-3xl sm:text-4xl text-white mb-4">Why Choose Minecord Section</h2>
+            <p class="text-gray-400">We construct premium platform execution dynamics optimized to outperform fragmented legacy gaming stores.</p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="p-6 rounded-2xl bg-white/[0.01] border border-white/5 hover:border-accent/10 transition-colors">
+                <i class="fa-solid fa-arrow-down-wide-short text-accent text-xl mb-4 block"></i>
+                <h4 class="text-white font-bold mb-2">Lower Prices</h4>
+                <p class="text-xs text-gray-500">Optimized direct volume allocations provide pricing structures unmatchable by standard sites.</p>
+            </div>
+            <div class="p-6 rounded-2xl bg-white/[0.01] border border-white/5 hover:border-accent/10 transition-colors">
+                <i class="fa-solid fa-microchip text-accent text-xl mb-4 block"></i>
+                <h4 class="text-white font-bold mb-2">Automated Delivery</h4>
+                <p class="text-xs text-gray-500">Bot infrastructures capture payment assertions and generate rapid distribution actions instantly.</p>
+            </div>
+            <div class="p-6 rounded-2xl bg-white/[0.01] border border-white/5 hover:border-accent/10 transition-colors">
+                <i class="fa-solid fa-headset text-accent text-xl mb-4 block"></i>
+                <h4 class="text-white font-bold mb-2">Fast Support</h4>
+                <p class="text-xs text-gray-500">Direct technical assistance pipelines running 24 hours a day to isolate and process anomalies.</p>
+            </div>
+            <div class="p-6 rounded-2xl bg-white/[0.01] border border-white/5 hover:border-accent/10 transition-colors">
+                <i class="fa-solid fa-shield-halved text-accent text-xl mb-4 block"></i>
+                <h4 class="text-white font-bold mb-2">Trusted Community</h4>
+                <p class="text-xs text-gray-500">Audited transparent structural frameworks trusted implicitly by active pro players globally.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Accordion Section -->
+    <section id="faq" class="py-24 bg-darkbg-200 border-t border-white/5 relative">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="font-display font-bold text-3xl sm:text-4xl text-white mb-4">Frequently Asked Questions</h2>
+                <p class="text-gray-400">Got questions? We have calculated programmatic answers prepared below.</p>
+            </div>
+
+            <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="glass-card border border-white/5 rounded-xl overflow-hidden transition-all duration-300">
+                    <button class="w-full p-6 text-left flex items-center justify-between text-white font-semibold focus:outline-none faq-trigger">
+                        <span>How do I buy?</span>
+                        <i class="fa-solid fa-plus text-xs text-accent transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out bg-white/[0.01]">
+                        <p class="p-6 text-sm text-gray-400 border-t border-white/5">
+                            Simply browse our targeted product catalog matrix right here on the frontend node workspace, then seamlessly cross over via our prioritized link invitation directly into the core Discord workspace framework to finalize automated allocation orders safely.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="glass-card border border-white/5 rounded-xl overflow-hidden transition-all duration-300">
+                    <button class="w-full p-6 text-left flex items-center justify-between text-white font-semibold focus:outline-none faq-trigger">
+                        <span>Is delivery automated?</span>
+                        <i class="fa-solid fa-plus text-xs text-accent transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out bg-white/[0.01]">
+                        <p class="p-6 text-sm text-gray-400 border-t border-white/5">
+                            Yes, the vast majority of our digital product structures, item variations, and specific account keys process flawlessly and dynamically using our integrated automation bots straight to your direct messages.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="glass-card border border-white/5 rounded-xl overflow-hidden transition-all duration-300">
+                    <button class="w-full p-6 text-left flex items-center justify-between text-white font-semibold focus:outline-none faq-trigger">
+                        <span>What payment methods are accepted?</span>
+                        <i class="fa-solid fa-plus text-xs text-accent transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out bg-white/[0.01]">
+                        <p class="p-6 text-sm text-gray-400 border-t border-white/5">
+                            We accept LTC, BTC, UPI protocols, bKash transactions, Nagad manual verification lines, and upcoming unified standard bank transfers.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="glass-card border border-white/5 rounded-xl overflow-hidden transition-all duration-300">
+                    <button class="w-full p-6 text-left flex items-center justify-between text-white font-semibold focus:outline-none faq-trigger">
+                        <span>Do I need Discord?</span>
+                        <i class="fa-solid fa-plus text-xs text-accent transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out bg-white/[0.01]">
+                        <p class="p-6 text-sm text-gray-400 border-t border-white/5">
+                            Yes. Discord is mandatory because our digital processing engines and structural validation matrix handle delivery logs securely within server ticketing spaces.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="glass-card border border-white/5 rounded-xl overflow-hidden transition-all duration-300">
+                    <button class="w-full p-6 text-left flex items-center justify-between text-white font-semibold focus:outline-none faq-trigger">
+                        <span>How fast is delivery?</span>
+                        <i class="fa-solid fa-plus text-xs text-accent transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out bg-white/[0.01]">
+                        <p class="p-6 text-sm text-gray-400 border-t border-white/5">
+                            Most orders complete within seconds parameters after our network engines receive asset node clearance validation confirmations.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="py-24 relative overflow-hidden bg-darkbg-300 border-t border-white/5 text-center">
+        <!-- Intense Golden Amber Glow Backdrop Glow Core Elements -->
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,193,7,0.08)_0%,transparent_60%)] pointer-events-none"></div>
+        
+        <div class="max-w-4xl mx-auto px-6 relative z-10">
+            <h2 class="font-display font-bold text-4xl sm:text-5xl text-white tracking-tight mb-6">Ready to Get Started?</h2>
+            <p class="text-gray-400 text-lg max-w-xl mx-auto mb-10 leading-relaxed">
+                Join the Minecord Discord server and access premium Minecraft products today at fractions of traditional consumer rates.
+            </p>
+            
+            <div class="flex flex-wrap items-center justify-center gap-4">
+                <a href="https://discord.gg/4cHumwMtHv" target="_blank" class="premium-btn px-8 py-4 rounded-xl text-darkbg-300 font-bold flex items-center gap-3 text-base shadow-2xl shadow-accent/20">
+                    <i class="fa-brands fa-discord text-xl"></i> Join Discord
+                </a>
+                <a href="#products" class="px-8 py-4 rounded-xl bg-white/5 hover:bg-white/10 text-white font-semibold border border-white/10 hover:border-white/20 transition-all">
+                    Browse Products
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-darkbg-300 border-t border-white/5 py-12">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+            <div>
+                <a href="#" class="flex items-center gap-3 mb-4">
+                    <img src="minecord.png" alt="Minecord Logo" class="h-8 w-auto">
+                    <span class="font-display font-bold text-lg text-white tracking-wide">MINECORD</span>
+                </a>
+                <p class="text-xs text-gray-500 leading-relaxed">
+                    Premium Minecraft items & automated operational software components compiled inside low-latency Discord frameworks.
+                </p>
+            </div>
+            <div>
+                <h4 class="text-white text-xs font-bold uppercase tracking-wider mb-4 font-mono">Quick Navigation</h4>
+                <ul class="space-y-2 text-xs text-gray-400">
+                    <li><a href="#products" class="hover:text-accent transition-colors">Products Hub</a></li>
+                    <li><a href="#faq" class="hover:text-accent transition-colors">Resolution FAQ</a></li>
+                    <li><a href="https://discord.gg/4cHumwMtHv" target="_blank" class="hover:text-accent transition-colors">Discord Portal</a></li>
+                    <li><a href="#payments" class="hover:text-accent transition-colors">Payments Node</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white text-xs font-bold uppercase tracking-wider mb-4 font-mono">Payment Networks</h4>
+                <div class="flex flex-wrap gap-2 text-gray-500 text-sm">
+                    <span class="bg-white/5 px-2 py-1 rounded text-[10px] text-white border border-white/5 font-mono">LTC</span>
+                    <span class="bg-white/5 px-2 py-1 rounded text-[10px] text-white border border-white/5 font-mono">BTC</span>
+                    <span class="bg-white/5 px-2 py-1 rounded text-[10px] text-white border border-white/5 font-mono">UPI</span>
+                    <span class="bg-white/5 px-2 py-1 rounded text-[10px] text-white border border-white/5 font-mono">bKash</span>
+                    <span class="bg-white/5 px-2 py-1 rounded text-[10px] text-white border border-white/5 font-mono">Nagad</span>
+                </div>
+            </div>
+            <div>
+                <h4 class="text-white text-xs font-bold uppercase tracking-wider mb-4 font-mono">Social & Assets</h4>
+                <div class="flex items-center gap-4 text-gray-400 text-lg">
+                    <a href="https://discord.gg/4cHumwMtHv" target="_blank" class="hover:text-accent transition-colors"><i class="fa-brands fa-discord"></i></a>
+                    <a href="#" class="hover:text-accent transition-colors"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" class="hover:text-accent transition-colors"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-6 border-t border-white/5 pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-gray-600 gap-4">
+            <p>&copy; 2026 Minecord. All rights reserved. Not affiliated with Mojang Studios or Microsoft Corporation.</p>
+            <p>Designed for multi-million dollar performance assets.</p>
+        </div>
+    </footer>
+
+    <!-- Interactive JavaScript Framework System Handles -->
+    <script>
+        // FAQ System Accordion Functionality Handler
+        const faqTriggers = document.querySelectorAll('.faq-trigger');
+        
+        faqTriggers.forEach(trigger => {
+            trigger.addEventListener('click', () => {
+                const content = trigger.nextElementSibling;
+                const icon = trigger.querySelector('i');
+                
+                // Toggle active states
+                if (content.style.maxHeight && content.style.maxHeight !== '0px') {
+                    content.style.maxHeight = '0px';
+                    icon.style.transform = 'rotate(0deg)';
+                } else {
+                    // Close other opened instances first
+                    document.querySelectorAll('.faq-content').forEach(el => el.style.maxHeight = '0px');
+                    document.querySelectorAll('.faq-trigger i').forEach(el => el.style.transform = 'rotate(0deg)');
+                    
+                    content.style.maxHeight = content.scrollHeight + 'px';
+                    icon.style.transform = 'rotate(45deg)';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
